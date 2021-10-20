@@ -1,9 +1,9 @@
 import React from "react"
-import 'src/styles/global-styles.scss'
+import MainLayout from 'src/components/template/MainLayout';
 
 const IndexPage = () => {
   return (
-    <main>hello</main>
+    <MainLayout>hello</MainLayout>
   )
 }
 
